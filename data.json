@@ -118,7 +118,7 @@
       "type": "coffee",
       "name": "coffee3",
       "price": "500원",
-      "img": "../imgs/coffee/coffee3.png"
+      "img": "imgs/coffee/coffee3.png"
     },
     {
       "type": "coffee",
