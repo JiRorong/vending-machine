@@ -28,6 +28,9 @@ function createHTMLItem(item) {
 function onButtonCilck(event, items) {
   const key = event.target.dataset.key;
   const value = event.target.dataset.value;
+  if (key == null || value == null) {
+    return;
+  }
   displayItems(items.filter((item) => item[key] === value));
 }
 
