@@ -1,0 +1,202 @@
+{
+  "items": [
+    {
+      "type": "soda",
+      "name": "soda1",
+      "price": "600원",
+      "img": "imgs/soda/soda1.png"
+    },
+    {
+      "type": "soda",
+      "name": "soda2",
+      "price": "600원",
+      "img": "imgs/soda/soda2.png"
+    },
+    {
+      "type": "soda",
+      "name": "soda3",
+      "price": "700원",
+      "img": "imgs/soda/soda3.png"
+    },
+    {
+      "type": "soda",
+      "name": "soda4",
+      "price": "700원",
+      "img": "imgs/soda/soda4.png"
+    },
+    {
+      "type": "soda",
+      "name": "soda5",
+      "price": "700원",
+      "img": "imgs/soda/soda5.png"
+    },
+    {
+      "type": "soda",
+      "name": "soda6",
+      "price": "900원",
+      "img": "imgs/soda/soda6.png"
+    },
+    {
+      "type": "soda",
+      "name": "soda7",
+      "price": "1000원",
+      "img": "imgs/soda/soda7.png"
+    },
+    {
+      "type": "sports drink",
+      "name": "sports drink1",
+      "price": "800원",
+      "img": "imgs/sports drink/sports drink1.png"
+    },
+    {
+      "type": "sports drink",
+      "name": "sports drink2",
+      "price": "800원",
+      "img": "imgs/sports drink/sports drink2.png"
+    },
+    {
+      "type": "sports drink",
+      "name": "sports drink3",
+      "price": "900원",
+      "img": "imgs/sports drink/sports drink3.png"
+    },
+    {
+      "type": "sports drink",
+      "name": "sports drink4",
+      "price": "900원",
+      "img": "imgs/sports drink/sports drink4.png"
+    },
+    {
+      "type": "sports drink",
+      "name": "sports drink5",
+      "price": "1000원",
+      "img": "imgs/sports drink/sports drink5.png"
+    },
+    {
+      "type": "sports drink",
+      "name": "sports drink6",
+      "price": "1000원",
+      "img": "imgs/sports drink/sports drink6.png"
+    },
+    {
+      "type": "sports drink",
+      "name": "sports drink7",
+      "price": "1000원",
+      "img": "imgs/sports drink/sports drink7.png"
+    },
+    {
+      "type": "sports drink",
+      "name": "sports drink8",
+      "price": "1200원",
+      "img": "imgs/sports drink/sports drink8.png"
+    },
+    {
+      "type": "sports drink",
+      "name": "sports drink9",
+      "price": "1200원",
+      "img": "imgs/sports drink/sports drink9.png"
+    },
+    {
+      "type": "sports drink",
+      "name": "sports drink10",
+      "price": "1200원",
+      "img": "imgs/sports drink/sports drink10.png"
+    },
+    {
+      "type": "coffee",
+      "name": "coffee1",
+      "price": "500원",
+      "img": "imgs/coffee/coffee1.png"
+    },
+    {
+      "type": "coffee",
+      "name": "coffee2",
+      "price": "500원",
+      "img": "imgs/coffee/coffee2.png"
+    },
+    {
+      "type": "coffee",
+      "name": "coffee3",
+      "price": "500원",
+      "img": "../imgs/coffee/coffee3.png"
+    },
+    {
+      "type": "coffee",
+      "name": "coffee4",
+      "price": "600원",
+      "img": "imgs/coffee/coffee4.png"
+    },
+    {
+      "type": "coffee",
+      "name": "coffee5",
+      "price": "700원",
+      "img": "imgs/coffee/coffee5.png"
+    },
+    {
+      "type": "coffee",
+      "name": "coffee6",
+      "price": "800원",
+      "img": "imgs/coffee/coffee6.png"
+    },
+    {
+      "type": "coffee",
+      "name": "coffee7",
+      "price": "900원",
+      "img": "imgs/coffee/coffee7.png"
+    },
+    {
+      "type": "water",
+      "name": "water1",
+      "price": "300원",
+      "img": "imgs/water/water1.png"
+    },
+    {
+      "type": "water",
+      "name": "water2",
+      "price": "300원",
+      "img": "imgs/water/water2.png"
+    },
+    {
+      "type": "water",
+      "name": "water3",
+      "price": "400원",
+      "img": "imgs/water/water3.png"
+    },
+    {
+      "type": "water",
+      "name": "water4",
+      "price": "400원",
+      "img": "imgs/water/water4.png"
+    },
+    {
+      "type": "water",
+      "name": "water5",
+      "price": "500원",
+      "img": "imgs/water/water5.png"
+    },
+    {
+      "type": "water",
+      "name": "water6",
+      "price": "600원",
+      "img": "imgs/water/water6.png"
+    },
+    {
+      "type": "water",
+      "name": "water7",
+      "price": "700원",
+      "img": "imgs/water/water7.png"
+    },
+    {
+      "type": "water",
+      "name": "water8",
+      "price": "800원",
+      "img": "imgs/water/water8.png"
+    },
+    {
+      "type": "water",
+      "name": "water9",
+      "price": "1000원",
+      "img": "imgs/water/water9.png"
+    }
+  ]
+}

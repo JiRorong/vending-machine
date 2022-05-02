@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="vending machine"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>vending machine</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="main.js" defer></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Bar -->
+    <ul class="bar">
+      <li class="bar__item">All</li>
+      <li class="bar__item" data-key="type" data-value="soda">
+        Soda
+      </li>
+      <li
+        class="bar__item"
+        data-key="type"
+        data-value="sports drink"
+      >
+        Sports drink
+      </li>
+      <li class="bar__item" data-key="type" data-value="coffee">
+        Coffee
+      </li>
+      <li class="bar__item" data-key="type" data-value="water">
+        Water
+      </li>
+    </ul>
+    <!-- Main -->
+    <div class="main">
+      <ul class="main__item"></ul>
+      <!-- 결제정보 -->
+      <div class="count">
+        <!-- ------------------------------------------- -->
+        <div class="count__balance">
+          <div class="balance__value">
+            <span>사용가능금액: </span>
+            <span class="value">0</span>
+          </div>
+          <button class="chargingBtn">충전</button>
+        </div>
+        <!-- ------------------------------------------- -->
+        <div class="count__order">
+          <ul class="order__list">
+            <li class="list">
+              <img
+                src="imgs/soda/soda1.png"
+                alt="soda1"
+                class="list__img"
+              />
+              <span>soda1</span>
+              <div class="option">
+                <input
+                  type="text"
+                  name="amount"
+                  id="amount"
+                  value="1"
+                />
+                <div class="buttons">
+                  <button class="plusBtn">+</button>
+                  <button class="minusBtn">-</button>
+                </div>
+                <button class="cancelBtn">x</button>
+              </div>
+            </li>
+            <li class="list">
+              <img
+                src="imgs/soda/soda1.png"
+                alt="soda1"
+                class="list__img"
+              />
+              <span>soda1</span>
+              <div class="option">
+                <input
+                  type="text"
+                  name="amount"
+                  id="amount"
+                  value="1"
+                />
+                <div class="buttons">
+                  <button class="plusBtn">+</button>
+                  <button class="minusBtn">-</button>
+                </div>
+                <button class="cancelBtn">x</button>
+              </div>
+            </li>
+          </ul>
+          <div class="order__sum">
+            <span>합계: </span><span class="sum">5000</span>
+          </div>
+        </div>
+        <!-- ------------------------------------------- -->
+        <button class="count__pay">결제하기</button>
+      </div>
+    </div>
+  </body>
+</html>
