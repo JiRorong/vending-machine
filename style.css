@@ -74,6 +74,10 @@ input {
   gap: 32px;
 }
 
+.balance__value span {
+  font-size: 1px;
+}
+
 .bar__item {
   padding: 12px 24px;
 }
@@ -89,7 +93,7 @@ input {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  width: 200%;
+  width: 150%;
   padding: 12px 18px;
   box-shadow: 0 0 4px var(--color-dark-grey);
   border-radius: 4px;
@@ -152,7 +156,7 @@ input {
 }
 
 .balance__value span {
-  font-size: 15px;
+  font-size: 14px;
 }
 
 .chargingBtn {
@@ -191,6 +195,9 @@ input {
   padding: 4px;
 }
 
+.list span {
+  font-size: 14px;
+}
 .option {
   display: flex;
   align-items: center;

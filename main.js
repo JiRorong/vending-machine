@@ -28,6 +28,9 @@ function createHTMLItem(item) {
 function onButtonCilck(event, items) {
   const key = event.target.dataset.key;
   const value = event.target.dataset.value;
+  if (key == null || value == null) {
+    return;
+  }
   displayItems(items.filter((item) => item[key] === value));
 }
 
@@ -43,3 +46,23 @@ loadItems() //
     displayItems(items);
     setEventListeners(items);
   });
+
+const chargingBtn = document.querySelector('.chargingBtn');
+chargingBtn.addEventListener('click', () => {
+  const getValue = prompt('충전할 금액을 입력하세요.');
+  const value = document.querySelector('.value');
+  if (getValue == null) {
+    return;
+  } else if (isNaN(getValue)) {
+    alert('숫자를 입력하세요.');
+    return;
+  } else if (getValue === '') {
+    alert('금액을 입력하세요.');
+    return;
+  } else {
+    value.innerHTML =
+      parseInt(value.textContent) + parseInt(getValue);
+    alert('충전이 완료되었습니다.');
+    return;
+  }
+});
