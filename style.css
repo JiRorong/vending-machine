@@ -136,6 +136,12 @@ input {
   width: 64px;
   height: 64px;
 }
+
+.drink img,
+.drink span {
+  pointer-events: none;
+}
+
 .count {
   display: flex;
   flex-direction: column;
@@ -170,7 +176,7 @@ input {
 .count__order {
   box-shadow: 0 0 4px var(--color-dark-grey);
   border-radius: 4px;
-  padding: 12px;
+  padding: 4px;
   width: 100%;
   margin: 24px 0;
   background-color: var(--color-purple);
@@ -181,6 +187,7 @@ input {
   flex-direction: column;
   height: 256px;
   padding: 8px;
+  overflow-y: scroll;
 }
 
 .list {
@@ -190,13 +197,23 @@ input {
   border: none;
   outline: none;
   border-radius: 4px;
-  margin: 2px 0;
+  margin-bottom: 8px;
   background-color: var(--color-white);
   padding: 4px;
 }
 
+.list__img {
+  width: 40px;
+  height: 40px;
+}
+
+.drinkValue {
+  margin-left: 4px;
+}
+
 .list span {
-  font-size: 14px;
+  display: flex;
+  font-size: 13px;
 }
 .option {
   display: flex;
@@ -206,11 +223,6 @@ input {
 .buttons {
   display: flex;
   flex-direction: column;
-}
-
-.list__img {
-  width: 40px;
-  height: 40px;
 }
 
 #amount {
