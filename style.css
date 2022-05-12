@@ -9,20 +9,6 @@
   --color-blue: #73aace;
   --color-black: #000000;
   --color-purple: #a2a3eb3a;
-
-  /* Font size */
-  --font-large: 48px;
-  --font-medium: 28px;
-  --font-regular: 18px;
-  --font-small: 16px;
-  --font-micro: 14px;
-
-  /* Font weight */
-  --weight-bold: 700;
-  --weight-semi-bold: 600;
-  --weight-regular: 400;
-
-  --animation-duration: 300ms;
 }
 
 * {
@@ -41,6 +27,7 @@ body {
   background-color: var(--color-purple);
   margin: auto;
   max-width: 1100px;
+  min-width: 725px;
 }
 
 li {
@@ -123,11 +110,6 @@ input {
   height: 100%;
 }
 
-/* .btns:active {
-  border: 2px solid purple;
-  border-radius: 12px;
-} */
-
 .drink:hover {
   background-color: #63686d;
 }
@@ -138,6 +120,7 @@ input {
   height: 64px;
 }
 
+.btns,
 .drink img,
 .drink span {
   pointer-events: none;
@@ -204,10 +187,6 @@ input {
   padding: 4px;
 }
 
-/* .order__list .list.visible {
-  display: auto;
-} */
-
 .list {
   display: none;
 }
@@ -219,10 +198,6 @@ input {
 .list-description span {
   font-size: 10px;
 }
-
-/* .list.list-display {
-  display: auto;
-} */
 
 .list__img {
   width: 40px;
@@ -255,9 +230,9 @@ input {
   margin-right: 4px;
 }
 
-/* .order__sum {
-  border-top: 2px solid var(--color-dark-grey);
-} */
+.order__sum {
+  border-top: 2px solid var(--color-white);
+}
 
 .list button {
   display: inline-block;
@@ -282,7 +257,7 @@ input {
   height: 32px;
 }
 
-/* @media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .main__item {
     flex-flow: column nowrap;
     overflow-y: scroll;
@@ -297,4 +272,8 @@ input {
     flex-direction: row;
     justify-content: flex-start;
   }
-} */
+
+  .drink__name {
+    margin-right: 12px;
+  }
+}

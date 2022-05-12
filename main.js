@@ -13,16 +13,16 @@ function displayItems(items) {
 
 function createHTMLItem(item) {
   return `
-  <li class="drink">
-    <button class="btns"
-    data-name="${item.dataset}"
-    data-class="${item.class}"
-    data-plus="${item.plus}"
-    data-minus="${item.minus}"
-    data-cancel="${item.cancel}"
-    data-amount="${item.amount}"
-    data-drinkvalue="${item.drinkValue}"
-    data-price="${item.price}">
+  <li class="drink"
+  data-name="${item.dataset}"
+  data-class="${item.class}"
+  data-plus="${item.plus}"
+  data-minus="${item.minus}"
+  data-cancel="${item.cancel}"
+  data-amount="${item.amount}"
+  data-drinkvalue="${item.drinkValue}"
+  data-price="${item.price}">
+    <button class="btns">
     <img
       src="${item.img}"
       alt="${item.type}"
@@ -53,11 +53,6 @@ function setEventListeners(items) {
     onButtonCilck(event, items)
   );
 }
-
-// function increase() {
-//   const increase = document.querySelectorAll('.list');
-//   console.log(increase);
-// }
 
 loadItems() //
   .then((items) => {
@@ -144,8 +139,8 @@ function cancelBtnClick(
   );
 }
 
-const asd = document.querySelector('.main__item');
-asd.addEventListener('click', (e) => {
+const mainItemList = document.querySelector('.main__item');
+mainItemList.addEventListener('click', (e) => {
   const dataset = e.target.dataset;
   const classs = dataset.class;
 
@@ -170,6 +165,9 @@ asd.addEventListener('click', (e) => {
   const cancelBtn = document.querySelector(cancel);
   const amount = document.querySelector(amountText);
   const drinkValue = document.querySelector(drinkValueText);
+
+  amount.value = '1';
+  drinkValue.textContent = price;
 
   const sum = document.querySelector('.sum');
   sum.textContent =
@@ -196,4 +194,50 @@ asd.addEventListener('click', (e) => {
       cancelBtn
     )
   );
+});
+
+// 결제하기버튼
+const value = document.querySelector('.value');
+const sum = document.querySelector('.sum');
+const pay = document.querySelector('.count__pay');
+pay.addEventListener('click', () => {
+  if (sum.textContent === '0') {
+    alert('상품을 선택하세요.');
+    return;
+  }
+
+  const fd = confirm('결제하시겠습니까?');
+  if (fd === true) {
+    if (
+      parseInt(value.textContent) >= parseInt(sum.textContent)
+    ) {
+      alert(`${sum.textContent}원이 결제되었습니다.`);
+      value.textContent =
+        parseInt(value.textContent) - parseInt(sum.textContent);
+      sum.textContent = '0';
+
+      const list = document.querySelectorAll('.list');
+      const drink = document.querySelectorAll('.drink');
+
+      list.forEach((list) => {
+        if (list.style.display === 'flex') {
+          list.style.display = 'none';
+          var old_element = list;
+          var new_element = old_element.cloneNode(true);
+          old_element.parentNode.replaceChild(
+            new_element,
+            old_element
+          );
+
+          drink.forEach((drink) => {
+            if (drink.style.pointerEvents === 'none') {
+              drink.style.pointerEvents = 'auto';
+            }
+          });
+        }
+      });
+    } else {
+      alert('잔액이 부족합니다.');
+    }
+  }
 });
