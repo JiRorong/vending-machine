@@ -108,6 +108,7 @@ input {
   height: 120px;
   margin: 4px;
   background-color: var(--color-white);
+  cursor: pointer;
 }
 
 .btns {
@@ -190,7 +191,8 @@ input {
   overflow-y: scroll;
 }
 
-.list {
+.list,
+.list-description {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -202,12 +204,33 @@ input {
   padding: 4px;
 }
 
+/* .order__list .list.visible {
+  display: auto;
+} */
+
+.list {
+  display: none;
+}
+
+.list-description {
+  justify-content: space-between;
+}
+
+.list-description span {
+  font-size: 10px;
+}
+
+/* .list.list-display {
+  display: auto;
+} */
+
 .list__img {
   width: 40px;
   height: 40px;
 }
 
 .drinkValue {
+  display: flex;
   margin-left: 4px;
 }
 
@@ -225,7 +248,7 @@ input {
   flex-direction: column;
 }
 
-#amount {
+.option input {
   width: 20px;
   height: 20px;
   text-align: center;
@@ -236,7 +259,7 @@ input {
   border-top: 2px solid var(--color-dark-grey);
 } */
 
-.option button {
+.list button {
   display: inline-block;
   text-align: center;
   border: none;

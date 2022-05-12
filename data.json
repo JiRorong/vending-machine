@@ -5,231 +5,429 @@
       "name": "soda1",
       "price": "600",
       "img": "imgs/soda/soda1.png",
-      "dataset": "soda1"
+      "dataset": "soda1",
+      "class": ".list-display1",
+      "plus": ".plusBtn1",
+      "minus": ".minusBtn1",
+      "cancel": ".cancelBtn1",
+      "amount": ".amount1",
+      "drinkValue": ".drinkValue1"
     },
     {
       "type": "soda",
       "name": "soda2",
       "price": "600",
       "img": "imgs/soda/soda2.png",
-      "dataset": "soda2"
+      "dataset": "soda2",
+      "class": ".list-display2",
+      "plus": ".plusBtn2",
+      "minus": ".minusBtn2",
+      "cancel": ".cancelBtn2",
+      "amount": ".amount2",
+      "drinkValue": ".drinkValue2"
     },
     {
       "type": "soda",
       "name": "soda3",
       "price": "700",
       "img": "imgs/soda/soda3.png",
-      "dataset": "soda3"
+      "dataset": "soda3",
+      "class": ".list-display3",
+      "plus": ".plusBtn3",
+      "minus": ".minusBtn3",
+      "cancel": ".cancelBtn3",
+      "amount": ".amount3",
+      "drinkValue": ".drinkValue3"
     },
     {
       "type": "soda",
       "name": "soda4",
       "price": "700",
       "img": "imgs/soda/soda4.png",
-      "dataset": "soda4"
+      "dataset": "soda4",
+      "class": ".list-display4",
+      "plus": ".plusBtn4",
+      "minus": ".minusBtn4",
+      "cancel": ".cancelBtn4",
+      "amount": ".amount4",
+      "drinkValue": ".drinkValue4"
     },
     {
       "type": "soda",
       "name": "soda5",
       "price": "700",
       "img": "imgs/soda/soda5.png",
-      "dataset": "soda5"
+      "dataset": "soda5",
+      "class": ".list-display5",
+      "plus": ".plusBtn5",
+      "minus": ".minusBtn5",
+      "cancel": ".cancelBtn5",
+      "amount": ".amount5",
+      "drinkValue": ".drinkValue5"
     },
     {
       "type": "soda",
       "name": "soda6",
       "price": "900",
       "img": "imgs/soda/soda6.png",
-      "dataset": "soda6"
+      "dataset": "soda6",
+      "class": ".list-display6",
+      "plus": ".plusBtn6",
+      "minus": ".minusBtn6",
+      "cancel": ".cancelBtn6",
+      "amount": ".amount6",
+      "drinkValue": ".drinkValue6"
     },
     {
       "type": "soda",
       "name": "soda7",
       "price": "1000",
       "img": "imgs/soda/soda7.png",
-      "dataset": "soda7"
+      "dataset": "soda7",
+      "class": ".list-display7",
+      "plus": ".plusBtn7",
+      "minus": ".minusBtn7",
+      "cancel": ".cancelBtn7",
+      "amount": ".amount7",
+      "drinkValue": ".drinkValue7"
     },
     {
       "type": "sports drink",
       "name": "sports drink1",
       "price": "800",
       "img": "imgs/sports drink/sports drink1.png",
-      "dataset": "sports drink1"
+      "dataset": "sports drink1",
+      "class": ".list-display8",
+      "plus": ".plusBtn8",
+      "minus": ".minusBtn8",
+      "cancel": ".cancelBtn8",
+      "amount": ".amount8",
+      "drinkValue": ".drinkValue8"
     },
     {
       "type": "sports drink",
       "name": "sports drink2",
       "price": "800",
       "img": "imgs/sports drink/sports drink2.png",
-      "dataset": "sports drink2"
+      "dataset": "sports drink2",
+      "class": ".list-display9",
+      "plus": ".plusBtn9",
+      "minus": ".minusBtn9",
+      "cancel": ".cancelBtn9",
+      "amount": ".amount9",
+      "drinkValue": ".drinkValue9"
     },
     {
       "type": "sports drink",
       "name": "sports drink3",
       "price": "900",
       "img": "imgs/sports drink/sports drink3.png",
-      "dataset": "sports drink3"
+      "dataset": "sports drink3",
+      "class": ".list-display10",
+      "plus": ".plusBtn10",
+      "minus": ".minusBtn10",
+      "cancel": ".cancelBtn10",
+      "amount": ".amount10",
+      "drinkValue": ".drinkValue10"
     },
     {
       "type": "sports drink",
       "name": "sports drink4",
       "price": "900",
       "img": "imgs/sports drink/sports drink4.png",
-      "dataset": "sports drink4"
+      "dataset": "sports drink4",
+      "class": ".list-display11",
+      "plus": ".plusBtn11",
+      "minus": ".minusBtn11",
+      "cancel": ".cancelBtn11",
+      "amount": ".amount11",
+      "drinkValue": ".drinkValue11"
     },
     {
       "type": "sports drink",
       "name": "sports drink5",
       "price": "1000",
       "img": "imgs/sports drink/sports drink5.png",
-      "dataset": "sports drink5"
+      "dataset": "sports drink5",
+      "class": ".list-display12",
+      "plus": ".plusBtn12",
+      "minus": ".minusBtn12",
+      "cancel": ".cancelBtn12",
+      "amount": ".amount12",
+      "drinkValue": ".drinkValue12"
     },
     {
       "type": "sports drink",
       "name": "sports drink6",
       "price": "1000",
       "img": "imgs/sports drink/sports drink6.png",
-      "dataset": "sports drink6"
+      "dataset": "sports drink6",
+      "class": ".list-display13",
+      "plus": ".plusBtn13",
+      "minus": ".minusBtn13",
+      "cancel": ".cancelBtn13",
+      "amount": ".amount13",
+      "drinkValue": ".drinkValue13"
     },
     {
       "type": "sports drink",
       "name": "sports drink7",
       "price": "1000",
       "img": "imgs/sports drink/sports drink7.png",
-      "dataset": "sports drink7"
+      "dataset": "sports drink7",
+      "class": ".list-display14",
+      "plus": ".plusBtn14",
+      "minus": ".minusBtn14",
+      "cancel": ".cancelBtn14",
+      "amount": ".amount14",
+      "drinkValue": ".drinkValue14"
     },
     {
       "type": "sports drink",
       "name": "sports drink8",
       "price": "1200",
       "img": "imgs/sports drink/sports drink8.png",
-      "dataset": "sports drink8"
+      "dataset": "sports drink8",
+      "class": ".list-display15",
+      "plus": ".plusBtn15",
+      "minus": ".minusBtn15",
+      "cancel": ".cancelBtn15",
+      "amount": ".amount15",
+      "drinkValue": ".drinkValue15"
     },
     {
       "type": "sports drink",
       "name": "sports drink9",
       "price": "1200",
       "img": "imgs/sports drink/sports drink9.png",
-      "dataset": "sports drink9"
+      "dataset": "sports drink9",
+      "class": ".list-display16",
+      "plus": ".plusBtn16",
+      "minus": ".minusBtn16",
+      "cancel": ".cancelBtn16",
+      "amount": ".amount16",
+      "drinkValue": ".drinkValue16"
     },
     {
       "type": "sports drink",
       "name": "sports drink10",
       "price": "1200",
       "img": "imgs/sports drink/sports drink10.png",
-      "dataset": "sports drink10"
+      "dataset": "sports drink10",
+      "class": ".list-display17",
+      "plus": ".plusBtn17",
+      "minus": ".minusBtn17",
+      "cancel": ".cancelBtn17",
+      "amount": ".amount17",
+      "drinkValue": ".drinkValue17"
     },
     {
       "type": "coffee",
       "name": "coffee1",
       "price": "500",
       "img": "imgs/coffee/coffee1.png",
-      "dataset": "coffee1"
+      "dataset": "coffee1",
+      "class": ".list-display18",
+      "plus": ".plusBtn18",
+      "minus": ".minusBtn18",
+      "cancel": ".cancelBtn18",
+      "amount": ".amount18",
+      "drinkValue": ".drinkValue18"
     },
     {
       "type": "coffee",
       "name": "coffee2",
       "price": "500",
       "img": "imgs/coffee/coffee2.png",
-      "dataset": "coffee2"
+      "dataset": "coffee2",
+      "class": ".list-display19",
+      "plus": ".plusBtn19",
+      "minus": ".minusBtn19",
+      "cancel": ".cancelBtn19",
+      "amount": ".amount19",
+      "drinkValue": ".drinkValue19"
     },
     {
       "type": "coffee",
       "name": "coffee3",
       "price": "500",
       "img": "imgs/coffee/coffee3.png",
-      "dataset": "coffee3"
+      "dataset": "coffee3",
+      "class": ".list-display20",
+      "plus": ".plusBtn20",
+      "minus": ".minusBtn20",
+      "cancel": ".cancelBtn20",
+      "amount": ".amount20",
+      "drinkValue": ".drinkValue20"
     },
     {
       "type": "coffee",
       "name": "coffee4",
       "price": "600",
       "img": "imgs/coffee/coffee4.png",
-      "dataset": "coffee4"
+      "dataset": "coffee4",
+      "class": ".list-display21",
+      "plus": ".plusBtn21",
+      "minus": ".minusBtn21",
+      "cancel": ".cancelBtn21",
+      "amount": ".amount21",
+      "drinkValue": ".drinkValue21"
     },
     {
       "type": "coffee",
       "name": "coffee5",
       "price": "700",
       "img": "imgs/coffee/coffee5.png",
-      "dataset": "coffee5"
+      "dataset": "coffee5",
+      "class": ".list-display22",
+      "plus": ".plusBtn22",
+      "minus": ".minusBtn22",
+      "cancel": ".cancelBtn22",
+      "amount": ".amount22",
+      "drinkValue": ".drinkValue22"
     },
     {
       "type": "coffee",
       "name": "coffee6",
       "price": "800",
       "img": "imgs/coffee/coffee6.png",
-      "dataset": "coffee6"
+      "dataset": "coffee6",
+      "class": ".list-display23",
+      "plus": ".plusBtn23",
+      "minus": ".minusBtn23",
+      "cancel": ".cancelBtn23",
+      "amount": ".amount23",
+      "drinkValue": ".drinkValue23"
     },
     {
       "type": "coffee",
       "name": "coffee7",
       "price": "900",
       "img": "imgs/coffee/coffee7.png",
-      "dataset": "coffee7"
+      "dataset": "coffee7",
+      "class": ".list-display24",
+      "plus": ".plusBtn24",
+      "minus": ".minusBtn24",
+      "cancel": ".cancelBtn24",
+      "amount": ".amount24",
+      "drinkValue": ".drinkValue24"
     },
     {
       "type": "water",
       "name": "water1",
       "price": "300",
       "img": "imgs/water/water1.png",
-      "dataset": "water1"
+      "dataset": "water1",
+      "class": ".list-display25",
+      "plus": ".plusBtn25",
+      "minus": ".minusBtn25",
+      "cancel": ".cancelBtn25",
+      "amount": ".amount25",
+      "drinkValue": ".drinkValue25"
     },
     {
       "type": "water",
       "name": "water2",
       "price": "300",
       "img": "imgs/water/water2.png",
-      "dataset": "water2"
+      "dataset": "water2",
+      "class": ".list-display26",
+      "plus": ".plusBtn26",
+      "minus": ".minusBtn26",
+      "cancel": ".cancelBtn26",
+      "amount": ".amount26",
+      "drinkValue": ".drinkValue26"
     },
     {
       "type": "water",
       "name": "water3",
       "price": "400",
       "img": "imgs/water/water3.png",
-      "dataset": "water3"
+      "dataset": "water3",
+      "class": ".list-display27",
+      "plus": ".plusBtn27",
+      "minus": ".minusBtn27",
+      "cancel": ".cancelBtn27",
+      "amount": ".amount27",
+      "drinkValue": ".drinkValue27"
     },
     {
       "type": "water",
       "name": "water4",
       "price": "400",
       "img": "imgs/water/water4.png",
-      "dataset": "water4"
+      "dataset": "water4",
+      "class": ".list-display28",
+      "plus": ".plusBtn28",
+      "minus": ".minusBtn28",
+      "cancel": ".cancelBtn28",
+      "amount": ".amount28",
+      "drinkValue": ".drinkValue28"
     },
     {
       "type": "water",
       "name": "water5",
       "price": "500",
       "img": "imgs/water/water5.png",
-      "dataset": "water5"
+      "dataset": "water5",
+      "class": ".list-display29",
+      "plus": ".plusBtn29",
+      "minus": ".minusBtn29",
+      "cancel": ".cancelBtn29",
+      "amount": ".amount29",
+      "drinkValue": ".drinkValue29"
     },
     {
       "type": "water",
       "name": "water6",
       "price": "600",
       "img": "imgs/water/water6.png",
-      "dataset": "water6"
+      "dataset": "water6",
+      "class": ".list-display30",
+      "plus": ".plusBtn30",
+      "minus": ".minusBtn30",
+      "cancel": ".cancelBtn30",
+      "amount": ".amount30",
+      "drinkValue": ".drinkValue30"
     },
     {
       "type": "water",
       "name": "water7",
       "price": "700",
       "img": "imgs/water/water7.png",
-      "dataset": "water7"
+      "dataset": "water7",
+      "class": ".list-display31",
+      "plus": ".plusBtn31",
+      "minus": ".minusBtn31",
+      "cancel": ".cancelBtn31",
+      "amount": ".amount31",
+      "drinkValue": ".drinkValue31"
     },
     {
       "type": "water",
       "name": "water8",
       "price": "800",
       "img": "imgs/water/water8.png",
-      "dataset": "water8"
+      "dataset": "water8",
+      "class": ".list-display32",
+      "plus": ".plusBtn32",
+      "minus": ".minusBtn32",
+      "cancel": ".cancelBtn32",
+      "amount": ".amount32",
+      "drinkValue": ".drinkValue32"
     },
     {
       "type": "water",
       "name": "water9",
       "price": "1000",
       "img": "imgs/water/water9.png",
-      "dataset": "water9"
+      "dataset": "water9",
+      "class": ".list-display33",
+      "plus": ".plusBtn33",
+      "minus": ".minusBtn33",
+      "cancel": ".cancelBtn33",
+      "amount": ".amount33",
+      "drinkValue": ".drinkValue33"
     }
   ]
 }
