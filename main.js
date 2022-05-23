@@ -142,15 +142,15 @@ function cancelBtnClick(
 const mainItemList = document.querySelector('.main__item');
 mainItemList.addEventListener('click', (e) => {
   const dataset = e.target.dataset;
-  const classs = dataset.class;
+  const listClass = dataset.class;
 
-  if (classs == null) {
+  if (listClass == null) {
     return;
   }
   // 이벤트 중복 제거
   e.target.style.pointerEvents = 'none';
 
-  const selectItems = document.querySelector(classs);
+  const selectItems = document.querySelector(listClass);
   selectItems.style.display = 'flex';
 
   const plus = dataset.plus;
@@ -206,8 +206,8 @@ pay.addEventListener('click', () => {
     return;
   }
 
-  const fd = confirm('결제하시겠습니까?');
-  if (fd === true) {
+  const payValue = confirm('결제하시겠습니까?');
+  if (payValue === true) {
     if (
       parseInt(value.textContent) >= parseInt(sum.textContent)
     ) {
